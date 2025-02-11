@@ -1,1 +1,28 @@
+[MyHub] Payments gateway. Incorrect button text
 
+#6579089 Заказчик Anastasiia Kudriakova
+Payments & Integrations / Dev: Payments & Integrations Team Board / In development / Waiting for Code review (From other teams)
+Priority prio3
+Product My Hub
+Responsible QA
+
+Feature branch
+feature/ak_0211_add_pg_change_submit_button/my_hub
+
+Описание
+Execution
+1 Go to brand->merchant->Payment Gateways tab
+2 Click “Add gateway” button
+3 Choose “Credit & debit cards”
+4 Click “Proceed” button
+5 Choose “Payment gateway” in drop down list
+6 Click “Add” button on pop-up “Add payment gateway”
+
+Expected result:
+There is drop down list of Payment Gateway and buttons - Cancel, Add
+Based on the tred
+
+Actual Result:
+There is drop down list of Payment Gateway and buttons - Cancel, Save
+
+QA notes: just changed a submit button name from “save” to “add” with an existed localized key “Button_Add”
